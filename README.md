@@ -1,4 +1,4 @@
-# TAHAP 6 — Perbandingan `yolo11n-seg` vs `yolo26n-seg` (VestCare)
+# TAHAP 6 Perbandingan `yolo11n-seg` vs `yolo26n-seg` (VestCare)
 
 Eksperimen segmentasi objek jalan untuk penunjang tunanetra (rompi VestCare):
 membandingkan **YOLO11n-seg** dan **YOLO26n-seg** pada dataset yang sama, dengan
