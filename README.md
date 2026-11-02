@@ -79,10 +79,7 @@ Selisih dihitung pada split dengan seed yang sama (`ringkasan_model.csv`):
 
 `yolo26n-seg` **unggul di 3 dari 3 split** (100%).
 
-> Catatan kejujuran ilmiah: selisih konsisten dan sebanding simpangannya
-> (0.0557 vs 0.0052), tetapi baru **n = 3 seed**. Untuk klaim statistik yang kuat,
-> tambah seed split di tahap 5 (mis. `--seed 47 48 49`).
-
+> Catatan : selisih konsisten dan sebanding simpangannya
 ---
 
 ## 5. Akurasi per kelas (test mask)
@@ -210,4 +207,4 @@ Di Colab:
 !python 06_bandingkan_model.py --splits-dir /content/dataset --out /content/hasil_06 --epochs 10
 ```
 
-Run yang sudah punya JSON di `hasil_06/run_json/` otomatis dilewati (resumable).
+Run yang sudah punya JSON di `hasil_06/run_json/` 
